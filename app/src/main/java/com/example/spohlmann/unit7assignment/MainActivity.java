@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         txtWidth = (EditText) findViewById(R.id.txtWidth);
         txtLength = (EditText) findViewById(R.id.txtLength);
+        txtResult = (TextView) findViewById(R.id.txtResult);
     }
 
     public void onButtonClick(View view) {
